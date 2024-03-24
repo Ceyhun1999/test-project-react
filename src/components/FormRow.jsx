@@ -4,13 +4,7 @@ function FormRow({ type, name, value, handleChange, labelText }) {
             <label htmlFor={name} className="form-label">
                 {name}
             </label>
-            <input
-                onChange={handleChange}
-                type={type}
-                name={name}
-                value={value}
-                className="form-input"
-            />
+            <input id={name} onChange={handleChange} type={type} name={name} value={value} className="form-input" />
         </div>
     );
 }

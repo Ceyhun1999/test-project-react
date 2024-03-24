@@ -20,7 +20,9 @@ function Landing() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellat pariatur quasi enim
                         tenetur exercitationem necessitatibus maxime, dignissimos ratione nihil?
                     </p>
-                    <Link className="btn btn-hero">Login/Register</Link>
+                    <Link to="/register" className="btn btn-hero">
+                        Login/Register
+                    </Link>
                 </div>
                 <img src={main} alt="job hunt" className="img main-img" />
             </div>
